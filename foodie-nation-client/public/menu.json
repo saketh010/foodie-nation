@@ -3,480 +3,336 @@
         "_id": "642c155b2c4774f05c36eeaa",
         "name": "Haddock",
         "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
+        "image": "https://ibb.co/mzRKmY2",
         "category": "salad",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb9",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "/images/recipes/img2.png",
-        "category": "drinks",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7c",
-        "name": "Escalope de Veau",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee88",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7a",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee74",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee712",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7x",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8c",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee94",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "pizza",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9e",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea6",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "salad",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeaf",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "soup",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee89",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8a",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee96",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "pizza",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee81",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "offered",
-        "price": 10.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee84",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "dessert",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea4",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "salad",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea5",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "salad",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee87",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee83",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "offered",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7f",
-        "name": "Roasted Pork Belly",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea8",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "salad",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeba",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "drinks",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee80",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "offered",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee90",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "dessert",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb0",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "soup",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8d",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8e",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea7",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "salad",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee99",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb3",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb5",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb6",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "soup",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb8",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "soup",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee7e",
-        "name": "Fish Parmentier",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "popular",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8b",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee8f",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "dessert",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee91",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "dessert",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee97",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "pizza",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea0",
-        "name": "Roasted Pork Belly",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eea9",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "salad",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee85",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://i.ibb.co/qJCmcpC/img2.png",
-        "category": "dessert",
-        "price": 10.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee93",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "https://i.ibb.co/W5T6Gmj/img3.png",
-        "category": "pizza",
-        "price": 10.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee95",
-        "name": "Chicken and Walnut Salad",
-        "recipe": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "pizza",
-        "price": 13.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9b",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb7",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "/images/recipes/img1.png",
-        "category": "soup",
-        "price": 9.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9c",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9d",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "/images/recipes/img1.png",
-        "category": "pizza",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeac",
-        "name": "Roasted Pork Belly",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "salad",
-        "price": 14.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36eeb4",
-        "name": "Haddock",
-        "recipe": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "soup",
-        "price": 14.7
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee98",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "pizza",
-        "price": 12.9
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee82",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "offered",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee86",
-        "name": "Escalope de Veau",
-        "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "dessert",
-        "price": 12.5
-    },
-    {
-        "_id": "642c155b2c4774f05c36ee9a",
-        "name": "Breton Fish Stew",
-        "recipe": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "pizza",
-        "price": 12.9
+        "price": 120.0
     },
     {
         "_id": "642c155b2c4774f05c36eeab",
-        "name": "Goats Cheese Pizza",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "salad",
-        "price": 14.5
+        "name": "Mojito",
+        "recipe": "Refreshing cocktail made with rum, lime, mint, and soda water.",
+        "image": "https://ibb.co/7jRSWtB",
+        "category": "drinks",
+        "price": 60.0
     },
     {
-        "_id": "642c155b2c4774f05c36eeb1",
-        "name": "Fish Parmentier",
-        "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "soup",
-        "price": 9.5
+        "_id": "642c155b2c4774f05c36eeac",
+        "name": "Spaghetti Carbonara",
+        "recipe": "Classic Italian pasta dish with a creamy sauce made from eggs, cheese, and pancetta.",
+        "image": "https://ibb.co/Yb1xyxg",
+        "category": "offered",
+        "price": 130.5
     },
     {
         "_id": "642c155b2c4774f05c36eead",
-        "name": "Roast Duck Breast",
-        "recipe": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-        "image": "https://i.ibb.co/HCrDdk6/img1.png",
-        "category": "soup",
-        "price": 14.5
+        "name": "Tiramisu",
+        "recipe": "Traditional Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+        "image": "https://ibb.co/bJHyc3w",
+        "category": "dessert",
+        "price": 65.0
     },
     {
         "_id": "642c155b2c4774f05c36eeae",
-        "name": "Tuna Niçoise",
-        "recipe": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-        "image": "/images/recipes/img1.png",
+        "name": "Chicken Caesar Salad",
+        "recipe": "Grilled chicken on a bed of romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
+        "image": "https://ibb.co/mzk02G6",
+        "category": "salad",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaf",
+        "name": "Margherita Pizza",
+        "recipe": "Classic pizza with fresh mozzarella, basil, and tomato sauce.",
+        "image": "https://ibb.co/PwRzbNv",
+        "category": "pizza",
+        "price": 220.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb0",
+        "name": "French Onion Soup",
+        "recipe": "Rich onion soup topped with a cheesy crouton.",
+        "image": "https://ibb.co/wcFX5sT",
         "category": "soup",
-        "price": 10.5
+        "price": 80.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb1",
+        "name": "Classic Cheesecake",
+        "recipe": "Creamy cheesecake with a graham cracker crust.",
+        "image": "https://ibb.co/gzZw2m6",
+        "category": "dessert",
+        "price": 170.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb2",
+        "name": "Mint Lemonade",
+        "recipe": "Lemonade infused with fresh mint leaves.",
+        "image": "https://ibb.co/5Tm4KnY",
+        "category": "drinks",
+        "price": 39.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb3",
+        "name": "Caprese Salad",
+        "recipe": "Fresh tomatoes, mozzarella cheese, and basil drizzled with balsamic glaze.",
+        "image": "https://ibb.co/yq3zrk1",
+        "category": "salad",
+        "price": 90.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb4",
+        "name": "Chocolate Cake",
+        "recipe": "Decadent chocolate cake with chocolate ganache.",
+        "image": "https://ibb.co/Lx9mJG8",
+        "category": "dessert",
+        "price": 99.9
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb5",
+        "name": "Iced Tea",
+        "recipe": "Refreshing iced tea with lemon slices and mint leaves.",
+        "image": "https://ibb.co/NVY4Yv2",
+        "category": "drinks",
+        "price": 56.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb6",
+        "name": "Greek Salad",
+        "recipe": "Fresh salad with tomatoes, cucumbers, red onions, olives, and feta cheese.",
+        "image": "https://ibb.co/xXcPk8G",
+        "category": "salad",
+        "price": 140.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb7",
+        "name": "Garlic Parmesan Wings",
+        "recipe": "Crispy chicken wings tossed in a garlic Parmesan sauce.",
+        "image": "https://ibb.co/NZrr1RK",
+        "category": "popular",
+        "price": 180.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb8",
+        "name": "Veggie Burger",
+        "recipe": "Plant-based patty with lettuce, tomato, and avocado on a whole grain bun.",
+        "image": "https://ibb.co/6P1VN6V",
+        "category": "popular",
+        "price": 90.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb9",
+        "name": "Garlic Parmesan Fries",
+        "recipe": "Crispy fries topped with garlic and Parmesan cheese.",
+        "image": "https://ibb.co/hHMZWK6",
+        "category": "offered",
+        "price": 130.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeba",
+        "name": "Mushroom Risotto",
+        "recipe": "Creamy risotto with sautéed mushrooms and Parmesan cheese.",
+        "image": "https://ibb.co/4RXrgMt",
+        "category": "offered",
+        "price": 78.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebb",
+        "name": "Vanilla Milkshake",
+        "recipe": "Thick and creamy vanilla milkshake topped with whipped cream.",
+        "image": "https://ibb.co/LvR2GRp",
+        "category": "drinks",
+        "price": 60.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebc",
+        "name": "Chicken Burger",
+        "recipe": "Grilled chicken patty with lettuce, tomato, and cheese on a sesame seed bun.",
+        "image": "https://ibb.co/XFyB8c7",
+        "category": "popular",
+        "price": 90.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebd",
+        "name": "Vegetable Pizza",
+        "recipe": "Pizza topped with a variety of fresh vegetables and mozzarella cheese.",
+        "image": "https://ibb.co/KwXG35P",
+        "category": "pizza",
+        "price": 125.6
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebe",
+        "name": "Club Sandwich",
+        "recipe": "Triple-decker sandwich with turkey, bacon, lettuce, and tomato.",
+        "image": "https://ibb.co/HPrHJkk",
+        "category": "offered",
+        "price": 73.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eebf",
+        "name": "Pesto Pasta",
+        "recipe": "Pasta tossed with fresh basil pesto sauce and cherry tomatoes.",
+        "image": "https://ibb.co/gVxtmVN",
+        "category": "offered",
+        "price": 113.8
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec0",
+        "name": "Key Lime Pie",
+        "recipe": "Tangy and sweet pie with a graham cracker crust and whipped cream topping.",
+        "image": "https://ibb.co/NKLTR8S",
+        "category": "dessert",
+        "price": 70.9
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec1",
+        "name": "Sushi Platter",
+        "recipe": "Assorted sushi rolls with soy sauce, wasabi, and pickled ginger.",
+        "image": "https://ibb.co/zG1XzwS",
+        "category": "popular",
+        "price": 250.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec2",
+        "name": "Apple Pie",
+        "recipe": "Classic apple pie with cinnamon and a flaky crust.",
+        "image": "https://ibb.co/Y2TJzhD",
+        "category": "dessert",
+        "price": 65.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec3",
+        "name": "Margarita",
+        "recipe": "Classic margarita cocktail with tequila, lime juice, and triple sec.",
+        "image": "https://ibb.co/3rb0XWK",
+        "category": "drinks",
+        "price": 80.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec4",
+        "name": "Caesar Salad",
+        "recipe": "Romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+        "image": "https://ibb.co/ZKTgBJ1",
+        "category": "salad",
+        "price": 110.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec5",
+        "name": "Chicken Stroganoff",
+        "recipe": "Tender chicken strips cooked in a creamy mushroom sauce, served over egg noodles.",
+        "image": "https://ibb.co/6svWzct",
+        "category": "offered",
+        "price": 145.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec6",
+        "name": "Chocolate Chip Cookie",
+        "recipe": "Soft and chewy cookie with plenty of chocolate chips.",
+        "image": "https://ibb.co/2ZqF6xN",
+        "category": "dessert",
+        "price": 34.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec7",
+        "name": "Hot Chocolate",
+        "recipe": "Rich and creamy hot chocolate topped with whipped cream.",
+        "image": "https://ibb.co/F4nZgVd",
+        "category": "drinks",
+        "price": 40.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec8",
+        "name": "Spinach Salad",
+        "recipe": "Fresh spinach leaves with strawberries, goat cheese, and balsamic vinaigrette.",
+        "image": "https://ibb.co/yB5npYJ",
+        "category": "salad",
+        "price": 65.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec9",
+        "name": "Chicken Tacos",
+        "recipe": "Soft tacos filled with seasoned chicken, lettuce, cheese, and salsa.",
+        "image": "https://ibb.co/ScFwhK2",
+        "category": "popular",
+        "price": 100.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeca",
+        "name": "Pumpkin Soup",
+        "recipe": "Creamy pumpkin soup garnished with roasted pumpkin seeds.",
+        "image": "https://ibb.co/3FyPHFK",
+        "category": "soup",
+        "price": 60.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eecb",
+        "name": "Berry Tart",
+        "recipe": "Fresh berries on a buttery tart crust with pastry cream.",
+        "image": "https://ibb.co/BwgdLQR",
+        "category": "dessert",
+        "price": 75.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eecc",
+        "name": "Cucumber Cooler",
+        "recipe": "Refreshing drink with cucumber, mint, and lime juice.",
+        "image": "https://ibb.co/bR40k5Q",
+        "category": "drinks",
+        "price": 30.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eecd",
+        "name": "Greek Gyro",
+        "recipe": "Pita wrap with grilled lamb, tzatziki sauce, lettuce, tomato, and onion.",
+        "image": "https://ibb.co/JWT54N7",
+        "category": "popular",
+        "price": 115.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eece",
+        "name": "Vegetable Stir Fry",
+        "recipe": "Assorted vegetables stir-fried in a savory sauce, served over rice.",
+        "image": "https://ibb.co/W68PZT9",
+        "category": "offered",
+        "price": 120.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eecf",
+        "name": "Banana Split",
+        "recipe": "Classic dessert with banana, ice cream, whipped cream, chocolate sauce, and nuts.",
+        "image": "https://ibb.co/qMLKFM0",
+        "category": "dessert",
+        "price": 80.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eed0",
+        "name": "Mango Smoothie",
+        "recipe": "Refreshing smoothie made with mango, yogurt, and orange juice.",
+        "image": "https://ibb.co/Hq910Lw",
+        "category": "drinks",
+        "price": 59.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eed1",
+        "name": "Cobb Salad",
+        "recipe": "Salad with grilled chicken, avocado, bacon, blue cheese, tomatoes, and hard-boiled eggs.",
+        "image": "https://ibb.co/yWkkYrF",
+        "category": "salad",
+        "price": 120.5
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec0",
+        "name": "BBQ Chicken Pizza",
+        "recipe": "Pizza topped with BBQ sauce, grilled chicken, red onions, and mozzarella cheese.",
+        "image": "https://ibb.co/KsGwdNx",
+        "category": "pizza",
+        "price": 151.0
+    },
+    {
+        "_id": "642c155b2c4774f05c36eec0",
+        "name": "Peri Peri Paneer Pizza",
+        "recipe": "Pizza topped with Peri Peri sauce, grilled panerr, and mozzarella cheese.",
+        "image": "https://ibb.co/khR3Q3h",
+        "category": "pizza",
+        "price": 159.0
     }
 ]
