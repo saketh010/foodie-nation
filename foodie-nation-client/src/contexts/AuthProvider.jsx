@@ -11,7 +11,7 @@ export const AuthContext = createContext();
 const auth = getAuth(app);
 const googleProvider = new GoogleAuthProvider();
 
-const AuthProvider = ({children}) => {
+const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true);
 
@@ -25,52 +25,50 @@ const AuthProvider = ({children}) => {
         return signInWithPopup(auth, googleProvider);
     }
 
-    const login = (email, password) =>{
+    const login = (email, password) => {
         return signInWithEmailAndPassword(auth, email, password);
     }
 
-    const logOut = () =>{
+    const logOut = () => {
         localStorage.removeItem('genius-token');
         return signOut(auth);
     }
 
     // update your profile
     const updateUserProfile = (name, photoURL) => {
-      return  updateProfile(auth.currentUser, {
+        return updateProfile(auth.currentUser, {
             displayName: name, photoURL: photoURL
-          })
+        })
     }
 
-    useEffect( () =>{
-        const unsubscribe = onAuthStateChanged(auth, currentUser =>{
+    useEffect(() => {
+        const unsubscribe = onAuthStateChanged(auth, currentUser => {
             // console.log(currentUser);
             setUser(currentUser);
-            if(currentUser){
-                const userInfo ={email: currentUser.email}
+            if (currentUser) {
+                const userInfo = { email: currentUser.email }
                 axios.post('http://localhost:6001/jwt', userInfo)
-                  .then( (response) => {
-                    // console.log(response.data.token);
-                    if(response.data.token){
-                        localStorage.setItem("access-token", response.data.token)
-                    }
-                  })
-            } else{
-               localStorage.removeItem("access-token")
+                    .then((response) => {
+                        if(response.data.token){
+                            localStorage.setItem("access-token",response.data.token)
+                        }
+                    })
+            }else{
+                localStorage.removeItem("access-token");
             }
-           
             setLoading(false);
         });
 
-        return () =>{
+        return () => {
             return unsubscribe();
         }
     }, [])
 
     const authInfo = {
-        user, 
+        user,
         loading,
-        createUser, 
-        login, 
+        createUser,
+        login,
         logOut,
         signUpWithGmail,
         updateUserProfile

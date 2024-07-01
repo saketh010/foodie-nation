@@ -53,27 +53,14 @@ const router = createBrowserRouter([
     {
       path: 'dashboard',
       element: <PrivateRoute><DashboardLayout/></PrivateRoute>,
-      children: [
+      children:[
         {
           path: '',
-          element: <Dashboard/>
+          element:<Dashboard/>
         },
         {
-          path: 'users', 
-          element: <Users/>
-        },
-        {
-          path: 'add-menu',
-          element: <AddMenu/>
-        }, 
-        {
-          path: "manage-items",
-          element: <ManageItems/>
-        },
-        {
-          path: "update-menu/:id",
-          element: <UpdateMenu/>,
-          loader: ({params}) => fetch(`http://localhost:6001/menu/${params.id}`)
+          path:'users',
+          element:<Users/>
         }
       ]
     }

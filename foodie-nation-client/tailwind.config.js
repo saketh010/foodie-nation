@@ -10,6 +10,8 @@ export default {
       colors: {
         "green": "#39DB4A",
         "red": "#FF6868",
+        "orange":"#FFA500",
+        "blue": "#4567b7",
         "secondary": "#555",
         "prigmayBG": "#FCFCFC"
       }

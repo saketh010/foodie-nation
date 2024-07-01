@@ -24,8 +24,7 @@ const Modal = () => {
   const onSubmit = (data) => {
     const email = data.email;
     const password = data.password;
-    login(email, password)
-      .then((result) => {
+    login(email, password).then((result) => {
         // Signed in
         const user = result.user;
         const userInfor = {
@@ -35,7 +34,6 @@ const Modal = () => {
         axios
           .post("http://localhost:6001/users", userInfor)
           .then((response) => {
-            // console.log(response);
             alert("Signin successful!");
             navigate(from, { replace: true });
           });

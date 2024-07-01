@@ -52,7 +52,7 @@ const Profile = ({ user }) => {
             <li>
               <a>Settings</a>
             </li>
-            <li>
+            <li>  
               <Link to="/dashboard">Dashboard</Link>
             </li>
             <li>

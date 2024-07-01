@@ -4,8 +4,9 @@ const {route}=require('./menuRoutes');
 const router=express.Router();
 
 const cartController = require('../controllers/cartControllers');
+const verifyToken=require('../middlewares/verifyToken');
 
-router.get('/',cartController.getCartsByEmail);
+router.get('/',verifyToken,cartController.getCartsByEmail);
 router.post('/',cartController.addToCart);
 router.delete('/:id',cartController.deleteCart);
 router.put('/:id',cartController.updateCart);
