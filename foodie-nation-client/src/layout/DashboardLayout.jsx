@@ -69,8 +69,8 @@ const DashboardLayout = () => {
             {/* Sidebar content here */}
             <li className='mt-3'><Link to="/dashboard"><MdDashboard />Dashboard</Link></li>
             <li><Link to="/dashboard"><FaBasketShopping />Manage Orders</Link></li>
-            <li><Link to="/dashboard/users"><IoIosAddCircle />Add Menu</Link></li>
-            <li><Link to="/dashboard/users"><FaEdit />Manage Items</Link></li>
+            <li><Link to="/dashboard/add-menu"><IoIosAddCircle />Add Menu</Link></li>
+            <li><Link to="/dashboard/manage-items"><FaEdit />Manage Items</Link></li>
             <li className='mb-3'><Link to="/dashboard/users"><FaUser />All Users</Link></li>
 
             {/* shared nav links */}

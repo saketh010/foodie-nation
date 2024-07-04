@@ -10,55 +10,62 @@ const AddMenu = () => {
   const axiosPublic = useAxiosPublic();
   const axiosSecure = useAxiosSecure();
 
-  // image hosting key
   const image_hosting_key = import.meta.env.VITE_IMAGE_HOSTING_KEY;
-  // console.log(image_hosting_key)
+  // console.log(image_hosting_key);
   const image_hosting_api = `https://api.imgbb.com/1/upload?key=${image_hosting_key}`;
-  const onSubmit = async (data) => {
-    // console.log(data)
-    const imageFile = { image: data.image[0] };
-    const hostingImg = await axiosPublic.post(image_hosting_api, imageFile, {
-      headers: {
-        "content-type": "multipart/form-data",
-      },
-    });
-    // console.log(hostingImg.data)
-    if (hostingImg.data.success) {
-      const menuItem = {
-        name: data.name,
-        category: data.category,
-        price: parseFloat(data.price), 
-        recipe: data.recipe,
-        image: hostingImg.data.data.display_url
-      };
 
-      // console.log(menuItem);
-      const postMenuItem = axiosSecure.post('/menu', menuItem);
-      if(postMenuItem){
-        reset()
-        Swal.fire({
-          position: "top-end",
-          icon: "success",
-          title: "Your Item is inserted successfully!",
-          showConfirmButton: false,
-          timer: 1500
-        });
+  const onSubmit = async (data) => {
+    const formData = new FormData();
+    formData.append('image', data.image[0]);
+
+    try {
+      const hostingImg = await axiosPublic.post(image_hosting_api, formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+      });
+
+      if (hostingImg.data.success) {
+        const menuItem = {
+          name: data.name,
+          category: data.category,
+          price: parseFloat(data.price),
+          recipe: data.recipe,
+          image: hostingImg.data.data.display_url,
+        };
+
+        const postMenuItem = await axiosSecure.post('/menu', menuItem);
+        if (postMenuItem) {
+          reset();
+          Swal.fire({
+            position: 'top-end',  
+            icon: 'success',
+            title: 'Item added successfully!',
+            showConfirmButton: false,
+            timer: 1500,
+          });
+        }
       }
+    } catch (error) {
+      console.error(error);
+      Swal.fire({
+        position: 'top-end',
+        icon: 'error',
+        title: 'Failed to upload the item!',
+        showConfirmButton: false,
+        timer: 1500,
+      });
     }
   };
 
   return (
     <div className="w-full md:w-[870px] px-4 mx-auto">
-      <h2 className="text-2xl font-semibold my-4">
-        Upload A New <span className="text-green">Menu Item</span>
-      </h2>
-
-      {/* form here */}
+      <h2 className="text-2xl font-semibold my-4">Upload A New Menu Item</h2>
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className="form-control w-full">
             <label className="label">
-              <span className="label-text">Recipe Name*</span>
+              <span className="label-text">Item Name *</span>
             </label>
             <input
               type="text"
@@ -67,13 +74,10 @@ const AddMenu = () => {
               className="input input-bordered w-full"
             />
           </div>
-
-          {/* 2nd row */}
           <div className="flex items-center gap-4">
-            {/* categories */}
             <div className="form-control w-full my-6">
               <label className="label">
-                <span className="label-text">Category*</span>
+                <span className="label-text">Category *</span>
               </label>
               <select
                 {...register("category", { required: true })}
@@ -84,18 +88,17 @@ const AddMenu = () => {
                   Select a category
                 </option>
                 <option value="salad">Salad</option>
-                <option value="pizza">Pizza</option>
                 <option value="soup">Soup</option>
-                <option value="dessert">dessert</option>
-                <option value="drinks">Drinks</option>
                 <option value="popular">Popular</option>
+                <option value="MainCourse">Main Course</option>
+                <option value="dessert">Dessert</option>
+                <option value="drinks">Drinks</option>
+                
               </select>
             </div>
-
-            {/* prices */}
             <div className="form-control w-full">
               <label className="label">
-                <span className="label-text">Price*</span>
+                <span className="label-text">Price *</span>
               </label>
               <input
                 type="number"
@@ -105,20 +108,16 @@ const AddMenu = () => {
               />
             </div>
           </div>
-
-          {/* 3rd row */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Recipe Details</span>
+              <span className="label-text">Details</span>
             </label>
             <textarea
               {...register("recipe", { required: true })}
               className="textarea textarea-bordered h-24"
-              placeholder="Tell the worlds about your recipe"
+              placeholder="Item Description"
             ></textarea>
           </div>
-
-          {/* 4th row */}
           <div className="form-control w-full my-6">
             <input
               {...register("image", { required: true })}
@@ -126,8 +125,7 @@ const AddMenu = () => {
               className="file-input w-full max-w-xs"
             />
           </div>
-
-          <button className="btn bg-green text-white px-6">
+          <button className="btn bg-blue text-white px-6">
             Add Item <FaUtensils />
           </button>
         </form>

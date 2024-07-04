@@ -17,7 +17,7 @@ const UpdateMenu = () => {
   
     // image hosting key
     const image_hosting_key = import.meta.env.VITE_IMAGE_HOSTING_KEY;
-    // console.log(image_hosting_key)
+    console.log('Image Hosting Key:', image_hosting_key);
     const image_hosting_api = `https://api.imgbb.com/1/upload?key=${image_hosting_key}`;
     const onSubmit = async (data) => {
       // console.log(data)
@@ -55,7 +55,7 @@ const UpdateMenu = () => {
   return (
     <div className="w-full md:w-[870px] px-4 mx-auto">
       <h2 className="text-2xl font-semibold my-4">
-        Update This <span className="text-green">Menu Item</span>
+        Update Menu Item
       </h2>
 
       {/* form here */}
@@ -90,7 +90,7 @@ const UpdateMenu = () => {
                   Select a category
                 </option>
                 <option value="salad">Salad</option>
-                <option value="pizza">Pizza</option>
+                <option value="MainCourse">Main Course</option>
                 <option value="soup">Soup</option>
                 <option value="dessert">dessert</option>
                 <option value="drinks">Drinks</option>
