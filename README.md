@@ -1,6 +1,6 @@
-# Foodie Nation
+# 🍔 Foodie Nation 🍕🍣
 
-Welcome to Foodie Nation, a comprehensive food delivery application designed to make ordering your favorite meals from local restaurants quick and easy. This project is built using Node.js, Express.js, MongoDB, and React, with JWT-based authentication and Firebase-based login to ensure secure user interactions.
+Welcome to **Foodie Nation**, a comprehensive food delivery application designed to make ordering your favorite meals from local restaurants quick and easy. This project is built using Node.js, Express.js, MongoDB, and React, with JWT-based authentication and Firebase-based login to ensure secure user interactions.
 
 ## Table of Contents
 
@@ -14,15 +14,15 @@ Welcome to Foodie Nation, a comprehensive food delivery application designed to 
 
 ## Features
 
-- **User Authentication:** Secure sign-up and login using JWT and Firebase Authentication.
-- **Firebase-based Login:** Integrate with Firebase for user authentication.
-- **Restaurant Management:** Add, update, and remove restaurants.
-- **Menu Management:** Manage restaurant menus and food items.
-- **Order Management:** Place, view, and track orders.
-- **Responsive UI:** User-friendly interface built with React.
-- **Real-time Notifications:** Receive real-time updates on order status.
-- **User Profile Management:** Manage user profile information.
-- **Search and Filter:** Easily search and filter restaurants and menu items.
+- **🔐 User Authentication:** Secure sign-up and login using JWT and Firebase Authentication.
+- **🔥 Firebase-based Login:** Integrate with Firebase for user authentication.
+- **🏬 Restaurant Management:** Add, update, and remove restaurants.
+- **📋 Menu Management:** Manage restaurant menus and food items.
+- **📦 Order Management:** Place, view, and track orders.
+- **📱 Responsive UI:** User-friendly interface built with React.
+- **🔔 Real-time Notifications:** Receive real-time updates on order status.
+- **👤 User Profile Management:** Manage user profile information.
+- **🔍 Search and Filter:** Easily search and filter restaurants and menu items.
 
 ## Installation
 
@@ -80,5 +80,9 @@ Welcome to Foodie Nation, a comprehensive food delivery application designed to 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Deployed Version
+
+Check out the live version of the website here: [Foodie Nation](#)
 
 ---
