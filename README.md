@@ -1,5 +1,3 @@
-Sure! Here's the updated README file with all the features, including Firebase-based login:
-
 # Foodie Nation
 
 Welcome to Foodie Nation, a comprehensive food delivery application designed to make ordering your favorite meals from local restaurants quick and easy. This project is built using Node.js, Express.js, MongoDB, and React, with JWT-based authentication and Firebase-based login to ensure secure user interactions.
