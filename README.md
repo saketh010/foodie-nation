@@ -1,16 +1,13 @@
 # 🍔 Foodie Nation 🍕🍣
 
-Welcome to **Foodie Nation**, a comprehensive food delivery application designed to make ordering your favorite meals from local restaurants quick and easy. This project is built using Node.js, Express.js, MongoDB, and React, with JWT-based authentication and Firebase-based login to ensure secure user interactions.
+Welcome to **Foodie Nation**, a comprehensive food delivery application designed to make ordering your favourite meals from local restaurants quick and easy. This project uses Node.js, Express.js, MongoDB, and React, with JWT-based authentication and Firebase-based login to ensure secure user interactions.
 
 ## Table of Contents
 
 1. [Features](#features)
 2. [Installation](#installation)
 3. [Usage](#usage)
-4. [API Endpoints](#api-endpoints)
-5. [Environment Variables](#environment-variables)
-6. [Contributing](#contributing)
-7. [License](#license)
+4. [License](#license)
 
 ## Features
 
