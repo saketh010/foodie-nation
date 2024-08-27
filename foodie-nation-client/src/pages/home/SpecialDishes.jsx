@@ -12,7 +12,7 @@ const SampleNextArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      style={{ ...style, display: "block", background: "black" }}
       onClick={onClick}
     >
       NEXT
@@ -25,7 +25,7 @@ const SamplePrevArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      style={{ ...style, display: "block", background: "black" }}
       onClick={onClick}
     >
       BACK
@@ -86,17 +86,16 @@ const SpecialDishes = () => {
   return (
     <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 my-20 relative">
        <div className='text-left'>
-            <p className='subtitle'>Customer Favorites</p>
-            <h2 className='title'>Popular Catagories</h2>
+            <h2 className='title text-black'>Popular Catagories</h2>
         </div>
       <div className="md:absolute right-3 top-8 mb-10 md:mr-24">
         <button onClick={() => slider?.current?.slickPrev()}
-        className=" btn p-2 rounded-full ml-5"
+        className="bg-black btn p-2 rounded-full ml-5 hover:bg-white"
         >
         <FaAngleLeft className=" h-8 w-8 p-1"/>
         </button>
         <button
-          className="bg-green btn p-2 rounded-full ml-5"
+          className="bg-black btn p-2 rounded-full ml-5 hover:bg-white"
           onClick={() => slider?.current?.slickNext()}
         >
           <FaAngleRight className=" h-8 w-8 p-1"/>

@@ -16,6 +16,7 @@ mongoose.connect(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD
   .then(() => console.log("MongoDB connected successfully"))
   .catch((error) => console.log("Error connecting to MongoDB", error));
 
+
 // JWT Token-Based Authentication
 app.post('/jwt', async (req, res) => {
   const user = req.body;

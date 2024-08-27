@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <footer className="footer xl:px-24 py-10 px-4 text-base-content">
         <aside>
-          <img src="/logo.png" alt="" />
+          <img src="/logo.png" alt="" className="w-20 h-auto" />
           <p className="my-3 md:w-40">
             Savor the artistry where every dish is a culinary masterpiece
           </p>
