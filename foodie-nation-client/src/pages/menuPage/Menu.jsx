@@ -308,6 +308,9 @@ const Menu = () => {
             <button onClick={showAll} className={selectedCategory === "all" ? "active" : ""}>
               All
             </button>
+            <button onClick={() => filterItems("popular")} className={selectedCategory === "popular" ? "active" : ""}>
+              Popular
+            </button>
             <button onClick={() => filterItems("salad")} className={selectedCategory === "salad" ? "active" : ""}>
               Salad
             </button>
